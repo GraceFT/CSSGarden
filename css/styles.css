@@ -1,0 +1,21 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+#css-zen-garden{
+    font-size: 14px;
+    line-height: 2.0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Muli', sans-serif;
+    color:lightsalmon; 
+}
+.page-wrapper  h1, h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+     background-image:url(images/vintage-wood-backgrounds-tumblr.jpg);
+}
+
