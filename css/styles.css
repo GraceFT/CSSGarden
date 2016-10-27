@@ -5,10 +5,8 @@
 #css-zen-garden{
     font-size: 14px;
     line-height: 2.0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: 'Muli', sans-serif;
-    color:lightsalmon; 
+    color:#F3E3E3;
 }
 .page-wrapper  h1, h2{
     font-size: 40px;
@@ -16,6 +14,131 @@
 }
 
 body {
-     background-image:url(images/vintage-wood-backgrounds-tumblr.jpg);
+    background-image:url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+header {
+    background-color: rgba(235,167,221,0.5);
+    width: 70%;
+    margin: auto;
+    border: none;  
+    border-radius: 10px;
+}
+.summary p{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Segoe Script", sans-serif;
+    margin-top: 10px;
+    padding-bottom:10px;
+    width: 70%;
+    margin: auto;
+    border: none;  
+}
+.summary p a{
+    font-family: "Trebuchet MS", serif;
+    background-color: rgba(2340,220,235,0.5);
+    border: none;
+    border-radius: 1.5px;
+    color: #FFF;
+}
+.preamble {
+    background-color: rgba(81,195,123,0.5);
+    width: 500px;
+    width: 500px;
+    margin: 150px;  
+    border-radius: 10px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.preamble h3{
+    font-weight: 200px;
+    text-align: center;
+    background-color: rgba(81,195,123,0.5);
+}
+
+.preamble > p {
+    text-align: center;
+}
+
+.main supporting {
+    display: inline-block;
+}
+.explanation {
+    background-color: rgba(81,195,123,0.5);
+    width: 400px;
+    margin-left: 150px;  
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.explanation h3{
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(81,195,123,0.5);
+}
+.participation {
+    background-color: rgba(81,195,123,0.5);
+    width:300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.participation h3{
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(81,195,123,0.5);
+    
+}
+.participation p a {
+    background-color:rgba(233,167,235,0.4);
+    font-family: "Trebuchet MS", serif;
+    border: none;
+    border-radius: 1.5px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.benefits {
+    background-color: rgba(81,195,123,0.5);
+    width:300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.benefits h3{
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(81,195,123,0.5);    
+}
+
+.requirements {
+    background-color: rgba(81,195,123,0.5);
+    width:300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.requirements h3{
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(81,195,123,0.5);
+}
+
+.requirements p a {
+    background-color:rgba(233,167,235,0.4);
+    font-family: "Trebuchet MS", serif;
+    border: none;
+    border-radius: 1.5px;
+    color: #FFF;
+    text-decoration: none;
+}
+
 
